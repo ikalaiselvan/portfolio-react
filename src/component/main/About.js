@@ -1,6 +1,6 @@
 import React from 'react'
 import TestimonialModel from '../Testimonial/TestimonialModel';
-import Pizza from "../images/pizzaApp.png"
+// import Pizza from "../images/pizzaApp.png"
 
 export default function About() {
   return (
@@ -184,7 +184,7 @@ export default function About() {
           </li>
           <li class="pros-item">
             <a href="https://pizza-app-frontend.netlify.app/">
-              <img src={Pizza} alt="project logo" />
+              <img src="../images/pizzaApp.png" alt="project logo" />
             </a>
           </li>
 

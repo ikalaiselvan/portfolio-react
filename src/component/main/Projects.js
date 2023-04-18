@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Pizza from "../images/pizzaApp.png"
+// import Pizza from "../images/pizzaApp.png"
 
 export default function Projects() {
 
@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "Pizza delivery app",
       appLink: "https://pizza-app-frontend.netlify.app/",
-      image: Pizza,
+      image: "../images/pizzaApp.png",
       category: "Web application",
     },
     {
